@@ -1,8 +1,8 @@
 # -*- mode: ruby -*-
 # vi:set ft=ruby sw=2 ts=2 sts=2:
-
+# Original NUM_WORKER_NODE = 3 but i changed it to NUM_WORKER_NODE = 1 so i can work on my local machine - By Ben T.
 NUM_MASTER_NODE = 1
-NUM_WORKER_NODE = 3
+NUM_WORKER_NODE = 1
 
 IP_NW = "192.168.56."
 MASTER_IP_START = 1
